@@ -9,6 +9,7 @@ const TextInput = (props) => {
   if (type === 'textarea') {
     return (
       <textarea
+        className="form-control"
         {...rest} />
     );
   }
@@ -16,6 +17,7 @@ const TextInput = (props) => {
   return (
     <input
       type={type}
+      className="form-control"
       {...rest} />
   );
 
