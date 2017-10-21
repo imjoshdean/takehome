@@ -128,7 +128,7 @@ class EmailForm extends Component {
               rows="6"
               value={this.state.body}
               onChange={this.handleChange}
-              placeholder="Welcome To Trunk Club!"
+              placeholder="Best of luck on your on-site interview!"
               />
           </div>
           <input type="submit" />
